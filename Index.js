@@ -68,5 +68,5 @@ client.connect(err => {
     // client.close();
 });
 
-app.listen( port,()=>console.log(`connected database server${port}`));
 const port = process.env.PORT || 5000;
+app.listen( port,()=>console.log(`connected database server${port}`));
